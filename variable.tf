@@ -48,7 +48,7 @@ variable "backup_retention_days" {
 variable "geo_redundant_backup_enabled" {
   type        = bool
   description = "location of the resource group"
-  default     = false
+  default     = true
 }
 
 variable "public_network_access_enabled" {
@@ -60,7 +60,7 @@ variable "public_network_access_enabled" {
 variable "ssl_enforcement_enabled" {
   type        = bool
   description = "Name of the postgresql_server"
-  default     = false
+  default     = true
 }
 
 variable "ssl_minimal_tls_version_enforced" {
