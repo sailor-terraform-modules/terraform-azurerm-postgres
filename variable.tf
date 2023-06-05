@@ -42,29 +42,29 @@ variable "postgresql_version" {
 variable "backup_retention_days" {
   type        = number
   description = "name of the resource group"
-  default = 7
+  default     = 7
 }
 
 variable "geo_redundant_backup_enabled" {
   type        = bool
   description = "location of the resource group"
-  default = false
+  default     = false
 }
 
 variable "public_network_access_enabled" {
   type        = bool
   description = "Name of the postgresql_server"
-  default = true
+  default     = true
 }
 
 variable "ssl_enforcement_enabled" {
   type        = bool
   description = "Name of the postgresql_server"
-  default = false
+  default     = false
 }
 
 variable "ssl_minimal_tls_version_enforced" {
   type        = string
   description = "password of the azurerm_postgresql_server"
-  default = "TLSEnforcementDisabled"
+  default     = "TLSEnforcementDisabled"
 }
