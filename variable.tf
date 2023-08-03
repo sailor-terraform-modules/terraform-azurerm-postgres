@@ -18,10 +18,6 @@ variable "administrator_login" {
   description = "username of the azurerm_postgresql_server"
 }
 
-variable "administrator_login_password" {
-  type        = string
-  description = "password of the azurerm_postgresql_server"
-}
 
 variable "sku_name" {
   type        = string
